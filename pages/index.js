@@ -57,3 +57,14 @@ export default function Home() {
     </div>
   );
 }
+import Link from "next/link";
+
+// Inside your return(), right after the last motion.div:
+<div className="text-center mt-12">
+  <Link href="/start">
+    <a className="inline-block bg-white text-black font-semibold px-6 py-3 rounded-full hover:bg-gray-300 transition">
+      Start My Echo
+    </a>
+  </Link>
+</div>
+
